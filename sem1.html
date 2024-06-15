@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CGPA Calculator</title>
+  <link rel="stylesheet" href="sem2s.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img class="logo" src="logo.jpg" width="100px" height="100px">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="formula.html">Formulae</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+    <div class="main">
+        <h1>CAL CG</h1>
+        <br>
+        <h2>Enter your total marks per subjects(Out of 100)</h2>
+      <div class="calculator">
+          <label for="M2">Engineering Mathematics-I</label>
+          <input type="number" name="M2" id="M2">
+          
+
+          <label for="ph">Basic  Electronics Engineering</label>
+          <input type="number" name="ph" id="ph">
+          
+        
+        <label for="bme">Industrial Chemistry</label>
+        <input type="number" name="bme" id="bme">
+        
+          
+          <label for="ei">Engineering Graphics and Intro to CAD </label>
+        <input type="number" name="ei" id="ei">
+        
+
+        <label for="bee">Engineering Mechanics</label>
+        <input type="number" name="bee" id="bee">
+        
+
+        <label for="psp">Problem Solving and Programming I</label>
+        <input type="number" name="psp" id="psp">
+        
+      </div>
+          <h2>Enter lab marks(Out of 25)</h2>
+      <div class="lab">
+          <label for="beel">Basic Electronics Engineering </label>
+          <input type="number" name="beel" id="beel">
+
+
+          <label for="pblm">Project Based Learning Management I</label>
+          <input type="number" name="pblm" id="pblm">
+          
+
+          <label for="m2l">Engineering Mathematics - I</label>
+          <input type="number" name="m2l" id="m2l">
+          
+
+          <label for="phl">	Industrial Chemistry</label>
+          <input type="number" name="phl" id="phl">
+          
+      </div>
+        <button id="cal" onclick="show()">CALCULATE</button>
+    
+      <h2 class="result">RESULT</h2>
+      <script src="script.js"></script>
+</body>
+
+</html>

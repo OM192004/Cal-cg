@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CGPA Calculator</title>
+  <link rel="stylesheet" href="tarstyle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img class="logo" src="logo.jpg" width="100px" height="100px">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="formula.html">Formulae</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="main">
+    <h1>CAL CG</h1>
+    <div class="info">
+        Enter your last semester SGPA and your target CGPA
+    </div>
+    <div class="calculator">
+        <label for="sgpa">SGPA</label>
+        <input type="number" name="sgpa" id="sgpa">
+        
+        <label for="cgpa">CGPA</label>
+        <input type="number" name="cgpa" id="cgpa">
+        
+    </div>
+    <button id="cal" onclick="show()">CALCULATE</button>
+    <div class="ans">
+      <h2 class="result">RESULT</h2>
+      <h2 class="res"></h2>
+      <h2 class="res1"></h2>
+    </div>
+    </div>
+    
+    <script src="tarscript.js"></script>
+</body>
+
+</html>

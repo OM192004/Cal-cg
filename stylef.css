@@ -1,0 +1,97 @@
+* {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-image: url(bgimg.jpg);
+    background-attachment: fixed;
+}
+
+header {
+    width: 100%;
+    height: 130px;
+    position: sticky;
+    top:0;
+}
+
+nav img {
+    border-radius: 5px;
+}
+
+nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(50, 50, 50);
+    background: linear-gradient(90deg, rgba(50, 50, 50, 1) 3%, rgba(0, 0, 0, 0.5467436974789917) 23%, rgba(213, 212, 212, 0.5327380952380952) 58%);
+}
+
+nav ul {
+    display: flex;
+    gap: 44px;
+    height: 35px;
+    background: rgb(187, 187, 187);
+    background: linear-gradient(112deg, rgba(187, 187, 187, 1) 0%, rgba(231, 231, 231, 1) 99%);
+    align-items: center;
+}
+
+a {
+    padding: 5px 13px;
+    border: 2px solid rgb(49, 49, 49);
+    border-radius: 5px;
+}
+
+a:hover {
+    transition: 0.5s;
+    background: black;
+    color: white;
+    border-radius: 4px;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 20px;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+table{
+    width: 50%;
+    margin: 53px 380px;
+}
+table,td,th{
+    border: 2px black solid;
+}
+td,th{
+    padding:10px;
+}
+h2{
+    display: flex;
+    font-weight: 520;
+    margin-top:40px ;
+    justify-content: center;
+}
+.formula{
+    display: flex;
+    font-weight: 520;
+    margin:40px 50px;
+    justify-content: center;
+}
+.fimg{
+    width:50%;
+    height: 40%;
+    margin: 30px 379px;
+    object-fit:fill;
+    border: 3px black solid;
+}
+.fimg img{
+    width: 100%;
+    height: 100%;
+}
